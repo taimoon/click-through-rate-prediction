@@ -1,6 +1,7 @@
 */.ipynb_checkpoints/*.ipynb
 */__pycache__/**
 *.zip
+*.gz
 ignore_*
 *.pdf
 *.docx
