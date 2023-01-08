@@ -1,7 +1,8 @@
 import os
 files = [
     "intro.ipynb",
-    "file1.ipynb"
+    "EDA.ipynb",
+    "preprocess and model.ipynb"
 ]
 output_name = "final.ipynb"
 
