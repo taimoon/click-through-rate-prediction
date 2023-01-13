@@ -5,3 +5,5 @@
 ignore_*
 *.pdf
 *.docx
+.vscode
+ignore_
