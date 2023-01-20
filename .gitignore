@@ -7,3 +7,4 @@ ignore_*
 *.docx
 .vscode
 ignore_
+*.pyc
