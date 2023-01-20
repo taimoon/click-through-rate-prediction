@@ -1,9 +1,8 @@
 import os
 files = [
-    "intro.ipynb",
+    "report.ipynb",
     "EDA.ipynb",
-    "preprocess and model.ipynb",
-    "final.ipynb"
+    "preprocess and model.ipynb"
 ]
 quote = lambda f : f'"{f}"'
 
