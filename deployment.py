@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from ELT import *
@@ -38,6 +37,7 @@ def update(frame):
     ln.set_data(xdata, ydata)
     return ln,
 
-ani = FuncAnimation(fig, update,
-                    init_func=init, blit=False)
-plt.show()
+if __name__ == '__main__':
+    ani = FuncAnimation(fig, update,
+                        init_func=init, blit=False)
+    plt.show()
