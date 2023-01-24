@@ -1,20 +1,20 @@
 train dataset
-f1-score = 0.888539350219667
+f1-score = 0.8886000541565123
               precision    recall  f1-score   support
 
            0       0.99      1.00      1.00    285043
            1       1.00      0.80      0.89     10227
 
     accuracy                           0.99    295270
-   macro avg       1.00      0.90      0.94    295270
+   macro avg       0.99      0.90      0.94    295270
 weighted avg       0.99      0.99      0.99    295270
 
 test dataset
-f1-score = 0.683117041369646
+f1-score = 0.6830810383609945
               precision    recall  f1-score   support
 
            0       0.98      1.00      0.99    284834
-           1       0.94      0.54      0.68     10436
+           1       0.93      0.54      0.68     10436
 
     accuracy                           0.98    295270
    macro avg       0.96      0.77      0.84    295270
