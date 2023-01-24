@@ -1,3 +1,4 @@
+# variable_group.py
 target = ['isFraud']
 
 input_features = [['TransactionAmt', 'dist1', 'dist2']]
