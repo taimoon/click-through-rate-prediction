@@ -5,7 +5,16 @@ from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
-
+def flatten_list(li):
+    from functools import reduce
+    return reduce(lambda acm,cur: acm + cur, li)
+vesta_columns = [f'V{i+1}' for i in range(339)]
+input_features = []
+input_features += ['TransactionAmt', 'dist1', 'dist2'] 
+input_features += vesta_columns 
+input_features += flatten_list(new_time_subsets) 
+input_features += flatten_list(count_feature_subset) 
+input_features += categorical_cols
 '''
 Notes
 

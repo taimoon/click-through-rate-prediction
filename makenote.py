@@ -7,6 +7,7 @@ files = [
 quote = lambda f : f'"{f}"'
 
 output_name = 'ignore_final.ipynb'
+
 if output_name is None:
     output_name = "ignore_" + "_".join([os.path.splitext(nm)[0] for nm in files]) + ".ipynb"
 
