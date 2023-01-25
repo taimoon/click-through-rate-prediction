@@ -9,3 +9,5 @@ ignore_*
 ignore_
 *.pyc
 GROUP PROJECT REPORT.ipynb
+*.rar
+*.ipynb
